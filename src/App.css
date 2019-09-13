@@ -1,26 +1,36 @@
 body {
-    background-color: rgba(255, 0, 0, 0.781);
+    background-color: rgba(0, 0, 0, 0.781);
     color: #fff;
     text-align: center;
+
 }
 
 * {
     padding: 0;
     margin: 20;
+    
 }
 
 .notesHeader, .notesBody, .notesFooter {
     background-color: rgba(0, 0, 0, .5);
     padding: 20px;
     margin: 0 auto;    
+    
 }
 
 .notesHeader {
     font-family: 'Nosifer', cursive;
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/9450065/thumb/1.jpg");
 }
 
 .notesBody {
     margin-top: 20px;
+     
+}
+
+.Note{
+    background-image: url("https://www.fg-a.com/halloween-bgs/graveyard-dark.jpg");
+    
 }
 
 .notesFooter {
@@ -28,4 +38,6 @@ body {
     position: fixed;
     left: 0;
     width: 100%;
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/9450065/thumb/1.jpg");
+    
 }

@@ -5,10 +5,10 @@
 .NoteForm button {
     padding: 20px;
     color: #fff;
-    background: #109875;
+    background: #262553;
     border: none;
 }
 
 .NoteForm button:hover {
-    background-color: #02bab5
+    background-color: #030303
 }
