@@ -11,8 +11,11 @@ class Note extends React.Component{
     }
 
     handleRemove(id){
-      console.log(id);
-      
+      const response = window.confirm('Estas seguro de eliminar?')
+      if (response) {
+        this.props.removeNote(id);
+      }
+      return; 
     }
 
     render(){
