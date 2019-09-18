@@ -1,11 +1,9 @@
 body {
     background-color: #F2E7DC;
-    color: #fff;
+    color: rgb(245, 111, 205);
     text-align: center;
-
+    
 }
-
-
 
 .notesHeader, .notesBody, .notesFooter {
     padding: 20px;
@@ -14,13 +12,20 @@ body {
 }
 
 .notesHeader {
-    font-family: 'Nosifer', cursive;
+    font-family: 'Yeseva One', cursive;
+    font-size: 25px;
     
 }
 
+.notesBody {
+    height: 59px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .notesFooter {
-    bottom: 0;
-    position: fixed;
+    margin-top: 10px;
+    bottom: 30px;
     left: 0;
-    width: 100%
+    width: 100%;
 }

@@ -38,7 +38,7 @@ class App extends React.Component{
     });
     this.db.on('child_removed', snap => {
       for(let i = 0; i < notes.length; i ++){
-        if (notes[i].noteId = snap.key) {
+        if (notes[i].noteId === snap.key) {
           notes.splice(i, 1);
         }
       }
@@ -67,11 +67,14 @@ class App extends React.Component{
       <div className="notesContainer">
         
           <div className="notesHeader">
-            <h1>Scary Notes</h1>
+            <h1>Sil-Notes</h1>
+          </div>
+          
+          <div className="notesBody">
+            <NoteForm addNote={this.addNote}/>
           </div>
 
-          <div className="notesBody">
-          <ul>
+          <div className="notesFooter">
           {
             
               this.state.notes.map(note =>{
@@ -86,14 +89,8 @@ class App extends React.Component{
               })
               
           }
-          </ul>
            
           </div>
-
-          <div className="notesFooter">
-            <NoteForm addNote={this.addNote}/>
-          </div>
-
       </div>
     );
   }
