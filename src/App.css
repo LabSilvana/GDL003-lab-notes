@@ -1,7 +1,11 @@
 body {
-    background-color: #F2E7DC;
-    color: rgb(245, 111, 205);
+    background-image: url("https://image.freepik.com/free-photo/pencil-blank-note-book-with-vintage-camera-smartphone-old-wood-background-travel-hol_34435-1513.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    align-self: initial;
     text-align: center;
+    color: rgb(223, 111, 245);
     
 }
 
