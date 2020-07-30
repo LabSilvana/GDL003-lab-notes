@@ -1,14 +1,21 @@
 .NoteForm input[type="text"]{
-    padding: 20px;
+    border: 2px solid rgb(248, 153, 248);
+    border-radius: 4px;
+    padding: 19px;
+    width: 40%;
+    
 }
 
 .NoteForm button {
+    margin: 3px;
     padding: 20px;
     color: #fff;
-    background: #109875;
+    background: #c77cf3;
     border: none;
+    
 }
 
 .NoteForm button:hover {
-    background-color: #02bab5
+    background-color: #6b0763
 }
+

@@ -10,6 +10,8 @@ class NoteForm extends React.Component{
 
     addNote(){
         this.props.addNote(this.textInput.value);
+        this.textInput.value = '';
+        this.textInput.focus(); 
     }
 
     render(){

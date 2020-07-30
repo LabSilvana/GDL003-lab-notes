@@ -1,31 +1,35 @@
 body {
-    background-color: rgba(255, 0, 0, 0.781);
-    color: #fff;
+    background-image: url("https://image.freepik.com/free-photo/pencil-blank-note-book-with-vintage-camera-smartphone-old-wood-background-travel-hol_34435-1513.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    align-self: initial;
     text-align: center;
-}
-
-* {
-    padding: 0;
-    margin: 20;
+    color: rgb(223, 111, 245);
+    
 }
 
 .notesHeader, .notesBody, .notesFooter {
-    background-color: rgba(0, 0, 0, .5);
     padding: 20px;
-    margin: 0 auto;    
+    margin: 0 auto;     
+    
 }
 
 .notesHeader {
-    font-family: 'Nosifer', cursive;
+    font-family: 'Yeseva One', cursive;
+    font-size: 25px;
+    
 }
 
 .notesBody {
-    margin-top: 20px;
+    height: 59px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .notesFooter {
-    bottom: 0;
-    position: fixed;
+    margin-top: 10px;
+    bottom: 30px;
     left: 0;
     width: 100%;
 }

@@ -1,6 +1,12 @@
 .Note {
-    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(224, 32, 224, 0.5); /* this adds the "card" effect */
+    float: left;
+    width: 30%;
+    margin-left: 25px;
     padding: 20px;
-    color: #000;
+    color: rgb(166, 64, 224);
+    background-color: beige;
     margin-top: 10px;
+
 }
